@@ -90,8 +90,6 @@ img {
   border: 2px solid #27a3df;
   border-radius: 2rem;
 
-
-
 }
 
 .main-timeline-4 {
@@ -158,5 +156,33 @@ a{
   }
 }
 
+.error {
+  color: red;
 
+}
+.verified {
+  border: green;
+}
+.not-verified {
+  border: red;
+}
 
+@media screen and (max-width:600px) {
+
+  .hero-bg {
+    background-image: url("/assets/images/bg/bg-banner-2.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media  (min-width:601px) {
+  .hero-bg {
+    background-image: url("/assets/images/hero.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+}
