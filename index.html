@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/index.css" />
-    <link rel="icon" type="image/x-icon" href="assets/images/"logo.png">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <!-- meta informations -->
     <meta property="og:type" content="website" />
     <meta
@@ -351,23 +352,23 @@
         <div class="row justify-content-lg-center">
           <div class="col-12 col-lg-6">
             <div class="bg-white border rounded shadow-sm overflow-hidden">
-              <form action="#!">
+              <form  id="contact-form">
                 <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                   <div class="col-12">
-                    <label for="fullname" class="form-label"
+                    <label for="from_name"  class="form-label"
                       >Full Name <span class="text-danger">*</span></label
                     >
                     <input
                       type="text"
                       class="form-control"
-                      id="fullname"
-                      name="fullname"
+                      id="from_name"
+                      name="from_name"
                       value=""
                       required
                     />
                   </div>
                   <div class="col-12 col-md-6">
-                    <label for="email" class="form-label"
+                    <label for="email_id" class="form-label"
                       >Email <span class="text-danger">*</span></label
                     >
                     <div class="input-group">
@@ -388,8 +389,8 @@
                       <input
                         type="email"
                         class="form-control"
-                        id="email"
-                        name="email"
+                        id="email_address"
+                        name="email_address"
                         value=""
                         required
                       />
@@ -415,8 +416,20 @@
                       <input
                         type="tel"
                         class="form-control"
-                        id="phone"
-                        name="phone"
+                        id="phone_number"
+                        name="phone_number"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-12">
+                    <label for="Subject" class="form-label">Subject</label>
+                    <div class="input-group">
+                  
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="subject"
+                        name="subject"
                         value=""
                       />
                     </div>
@@ -435,7 +448,7 @@
                   </div>
                   <div class="col-12">
                     <div class="d-grid">
-                      <button class="btn btn-primary btn-lg" type="submit">
+                      <button class="btn btn-primary btn-lg submit-btn" type="submit">
                         Submit
                       </button>
                     </div>
@@ -633,7 +646,14 @@
     <audio id="audio" src="assets/audio/link.mp3" preload="auto"></audio>
     <audio id="hover-audio" src="assets/audio/hover.mp3" preload="auto"></audio>
     <!-- javascript -->
+    <!-- contact form -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
     <script src="assets/js/index.js"></script>
+    <script src="assets/js/contact.js"></script>
+   
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
