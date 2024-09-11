@@ -69,6 +69,8 @@
     font-weight: 900;
     font-style: italic;
   }
+ 
+  
   
 body {
     background-image: url(images/bg/bg-banner.png);
@@ -86,15 +88,13 @@ img {
 }
 .banner-bg {
   background-color: #27a3df;
-  border-radius: 20px;
+  border-radius: 2rem;
+
 }
 .text-gray {
   color:  #bbb;
 }
 .navbar-brand {
-	font-style: italic;
-	color: var(--main-color);
-	font-family: 'Lora', serif;
     font-size: 2rem;
 }
 
@@ -140,7 +140,7 @@ img {
 .service-card {
   background-color: transparent !important;
   border: 2px solid #27a3df;
-  border-radius: 20px;
+  border-radius: 2rem;
 
 
 
@@ -158,7 +158,7 @@ img {
   background-color: transparent !important;
   width: 50%;
   border: 2px solid #27a3df;
-  border-radius: 20px;
+  border-radius: 2rem;
 }
 
 /* The circles on the timeline */

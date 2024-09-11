@@ -10,8 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/"logo.png">
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,13 +44,13 @@
     />
     <meta property="og:autor" content="Anusree Pankan" />
 </head>
-<body>
+<body class="roboto-light">
 
     
     <nav class="navbar fixed-top">
         <div class="container">
-          <a onmouseover="playClick()" class="navbar-brand roboto-medium-italic text-white" href=""
-            >ANUSREE PANKAN</a
+          <a onmouseover="playClick()" class="navbar-brand roboto-light text-white" href=""
+            >AP</a
           >
           <button
             onmouseover="playAudio()"
@@ -73,7 +73,7 @@
           >
             <div class="offcanvas-header">
               <a href="">
-                <img style="width: 70px" src="images/logo.png" alt=""
+                <img style="width: 70px" src="assets/images/logo.png" alt=""
               /></a>
               <button
                 onclick="playClick()"
@@ -109,8 +109,8 @@
         </div>
       </nav>
 
-      <section class="jumbotron text-center mt-5 pt-5">
-        <div class="container banner-bg mt-5">
+      <section class="container jumbotron text-center mt-5 pt-5">
+        <div class="banner-bg mt-5">
           <h1 class="jumbotron-heading roboto-bold text-white pt-5 pb-5">Services</h1>
         </div>
       </section>
@@ -131,7 +131,7 @@
 
                             </div>
                             <h4 class="mb-4 text-white">Website Development</h4>
-                            <p class="mb-4 text-secondary">Offering professional website development services tailored to your needs. Whether you're looking to build an e-commerce platform, or a custom web solution, we ensure your site is fast, responsive, and user-friendly.</p>
+                            <p class="mb-4 text-gray">Offering professional website development services tailored to your needs. Whether you're looking to build an e-commerce platform, or a custom web solution, we ensure your site is fast, responsive, and user-friendly.</p>
                         
                         </div>
                         </div>
@@ -140,11 +140,10 @@
                         <div class="card service-card">
                         <div class="card-body text-center p-4 p-xxl-5">
                             <div class="mb-5">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 14 14"><g fill="none" stroke="#bbb" stroke-linecap="round" stroke-linejoin="round"><path d="M13.5 10.5v-8A.5.5 0 0 0 13 2H1c-.265 0-.5.235-.5.5v8c0 .265.235.5.5.5h12c.265 0 .5-.235.5-.5M6 11l-1 2.5M8 11l1 2.5m-5 0h6"/><path d="M5 5L3.5 6.5L5 8m4-3l1.5 1.5L9 8"/></g></svg> 
-
+                              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 20 20"><path fill="#bbb" d="M4 5H.78c-.37 0-.74.32-.69.84l1.56 9.99S3.5 8.47 3.86 6.7c.11-.53.61-.7.98-.7H10s-.7-2.08-.77-2.31C9.11 3.25 8.89 3 8.45 3H5.14c-.36 0-.7.23-.8.64C4.25 4.04 4 5 4 5m4.88 0h-4s.42-1 .87-1h2.13c.48 0 1 1 1 1M2.67 16.25c-.31.47-.76.75-1.26.75h15.73c.54 0 .92-.31 1.03-.83c.44-2.19 1.68-8.44 1.68-8.44c.07-.5-.3-.73-.62-.73H16V5.53c0-.16-.26-.53-.66-.53h-3.76c-.52 0-.87.58-.87.58L10 7H5.59c-.32 0-.63.19-.69.5c0 0-1.59 6.7-1.72 7.33c-.07.37-.22.99-.51 1.42M15.38 7H11s.58-1 1.13-1h2.29c.71 0 .96 1 .96 1"/></svg>
                             </div>
                             <h4 class="mb-4 text-white">Portfolio Creation</h4>
-                            <p class="mb-4 text-secondary">Specializing in crafting personalized, visually appealing portfolios that showcase your skills, achievements, and projects in the best possible light. A well-designed portfolio can be the key to attracting potential clients and collaborators.</p>
+                            <p class="mb-4 text-gray">Specializing in crafting personalized, visually appealing portfolios that showcase your skills, achievements, and projects in the best possible light. A well-designed portfolio can be the key to attracting potential clients and collaborators.</p>
                         
                         </div>
                         </div>
@@ -157,7 +156,7 @@
 
                             </div>
                             <h4 class="mb-4 text-white">Web Applications</h4>
-                            <p class="mb-4 text-secondary">Providing end-to-end web application development services to help you create dynamic, scalable, and secure solutions tailored to your business needs. From simple apps to complex systems, our goal is to deliver a seamless user experience.</p>
+                            <p class="mb-4 text-gray">Providing end-to-end web application development services to help you create dynamic, scalable, and secure solutions tailored to your business needs. From simple apps to complex systems, our goal is to deliver a seamless user experience.</p>
                             
                         </div>
                         </div>
@@ -177,7 +176,7 @@
                   <p class="col-md-4 mb-0 text-gray">© 2024 Anusree Pankan</p>
               
                   <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                   <img src="images/logo.png" style="width: 40px;" alt="">
+                   <img src="assets/images/logo.png" style="width: 40px;" alt="">
                   </a>
               
                   <ul class="nav col-md-4 justify-content-end">
@@ -353,10 +352,10 @@
               </div>
           
               <!-- audio -->
-              <audio id="audio" src="audio/link.mp3" preload="auto"></audio>
-              <audio id="hover-audio" src="audio/hover.mp3" preload="auto"></audio>
+              <audio id="audio" src="assets/audio/link.mp3" preload="auto"></audio>
+              <audio id="hover-audio" src="assets/audio/hover.mp3" preload="auto"></audio>
               <!-- javascript -->
-              <script src="index.js"></script>
+              <script src="assets/js/index.js"></script>
           
               <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
               <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
