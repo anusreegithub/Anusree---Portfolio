@@ -167,7 +167,7 @@ a{
   border: red;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:991px) {
 
   .hero-bg {
     background-image: url("/assets/images/bg/bg-banner-2.png");
@@ -177,7 +177,7 @@ a{
   }
 }
 
-@media  (min-width:601px) {
+@media  (min-width:992px) {
   .hero-bg {
     background-image: url("/assets/images/hero.png");
     height: 100vh;
